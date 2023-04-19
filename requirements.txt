@@ -1,0 +1,10 @@
+# lxml 
+# pandas 
+# sqlalchemy 
+# psycopg2 
+# apache-airflow 
+# google-cloud-storage 
+# google-cloud-bigquery
+# # -U google-cloud-storage
+# markupsafe==2.0.1
+dbt-BigQuery==1.4.2

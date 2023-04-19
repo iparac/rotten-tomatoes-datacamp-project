@@ -1,0 +1,14 @@
+rotten_project_dbt:
+  outputs:
+    rotten_project_dbt:
+      dataset: rotten_tomatoes_dbt
+      job_execution_timeout_seconds: 1800
+      job_retries: 3
+      location: EU
+      method: service-account
+      keyfile: /usr/local/airflow/dags/keys/gcp-cred.json
+      priority: interactive
+      project: quiet-maxim-379023
+      threads: 8
+      type: bigquery
+  target: rotten_project_dbt

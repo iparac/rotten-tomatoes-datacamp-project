@@ -1,0 +1,15 @@
+lxml 
+pandas 
+sqlalchemy 
+pyarrow 
+requests 
+psycopg2 
+argparse 
+fastparquet 
+pyspark 
+apache-airflow 
+google-cloud-storage 
+google-cloud-bigquery
+--upgrade google-cloud-storage
+markupsafe==2.0.1
+dbt-BigQuery
