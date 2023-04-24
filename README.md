@@ -44,6 +44,12 @@ To be able to run this project you need to have the have following software inst
 <li>Run the command: terraform init </li>
 <li>Run the command: terraform apply </li>
 </ol>
+  <li>Changing project ID inside the python script </li>
+  <ol>
+    <li>Open the rotten-tomatoes-datacamp-project/dags/data_ingestion.py</li>
+    <li>Use ctrl-f to find "quiet-maxim-379023" and replace it with your project ID</li>
+  </ol>
+  
 <li>Docker</li>
 <ol>
 <li>Using terminal move into folder rotten-tomatoes-datacamp-project/ </li>
