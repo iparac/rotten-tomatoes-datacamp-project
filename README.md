@@ -53,7 +53,8 @@ To be able to run this project you need to have the have following software inst
 
 
 
-
+<h1>Pipeline Infrastructure</h1>
+![Pipeline Infrastructure](https://user-images.githubusercontent.com/72452622/234042403-06fa41da-c5ae-444f-a82c-7b398cd32374.png)
 
 
 
