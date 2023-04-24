@@ -20,7 +20,7 @@ To be able to run this project you need to have the have following software inst
 <ul>
 <li>Docker</li>
 <li>Terraform</li>
-<li>Google Cloud Platform Account</li>
+<li>Google Cloud Platform Account and Google Cloud SDK</li>
 </ul>
 
 
@@ -37,6 +37,9 @@ To be able to run this project you need to have the have following software inst
 </ol>
 <li>Creating the infrastructure with Terraform</li>
 <ol>
+<li>In your Google Cloud Account copy your project ID which you can find after you login in to your GCP and it is going to be in the left corner near the Google Cloud icon.</li>
+<li>Open the file rotten-tomatoes-datacamp-project/terraform/main.tf
+<li>Change the project ID to yours. So every quiet-maxim occurence should be changed to your ID.</li>
 <li>Using the terminal move into rotten-tomatoes-datacamp-project/terraform folder</li>
 <li>Run the command: terraform init </li>
 <li>Run the command: terraform apply </li>
