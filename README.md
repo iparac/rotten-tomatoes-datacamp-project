@@ -1,7 +1,7 @@
 <h1>1. Introduction</h1>
 
-The final project made for the <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp">DataTalksClub/data-engineering-zoomcamp</a>. This document provides explanation to the installation process and is 
-seperated into several sections depending on the tools used.
+The final project made for the <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp">DataTalksClub/data-engineering-zoomcamp</a>. This project was made using big data cloud technologies and data from Rotten Tomatoes.
+This document provides explanation to the installation process and is seperated into several sections.
 
 
 <h3>Data Used</h3>
@@ -54,7 +54,7 @@ To be able to run this project you need to have the have following software inst
 
 
 <h1>3. Pipeline Infrastructure</h1>
-![Pipeline Infrastructure](https://github.com/iparac/rotten-tomatoes-datacamp-project/blob/master/images/pipeline.png?raw=true)
+<img alt="pipeline" width="1400px" src="images/pipeline.png" />
 
 <h3>Used Technologies</h3>
 
@@ -70,5 +70,6 @@ To be able to run this project you need to have the have following software inst
   <li>Looker Studio: Visualization</li>
 </ul>
 
-
+<h3>Disclaimer</h3>
+Everything is automated and replicable, but the Looker Studio. Data is processed and is already going to be inside BigQuery tables, so use it however you want for the visualization by using the BigQuery as the source.
 
