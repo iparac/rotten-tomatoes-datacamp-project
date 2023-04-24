@@ -1,6 +1,6 @@
 <h1>1. Introduction</h1>
 
-The final project made for the <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp">DataTalksClub/data-engineering-zoomcamp</a> This document provides explanation to the installation process and is 
+The final project made for the <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp">DataTalksClub/data-engineering-zoomcamp</a>. This document provides explanation to the installation process and is 
 seperated into several sections depending on the tools used.
 
 
@@ -53,16 +53,22 @@ To be able to run this project you need to have the have following software inst
 
 
 
-<h1>Pipeline Infrastructure</h1>
-![Pipeline Infrastructure](https://user-images.githubusercontent.com/72452622/234042403-06fa41da-c5ae-444f-a82c-7b398cd32374.png)
+<h1>3. Pipeline Infrastructure</h1>
+![Pipeline Infrastructure](https://github.com/iparac/rotten-tomatoes-datacamp-project/blob/master/images/pipeline.png?raw=true)
 
+<h3>Used Technologies</h3>
 
-
-
-
-
-
-
+<ul>
+  <li>Google Cloud Platform (GCP)</li>
+  <li>Google Cloud Storage (GCS): Data Lake</li>
+  <li>BigQuery: Data Warehouse</li>
+  <li>Terraform: Infrastructure-as-Code (IaC)</li>
+  <li>Docker: Containerization</li>
+  <li>PostgreSQL: Data Analysis & Exploration</li>
+  <li>Airflow: Workflow Orchestration</li>
+  <li>dbt: Data Transformation</li>
+  <li>Looker Studio: Visualization</li>
+</ul>
 
 
 
