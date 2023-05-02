@@ -53,6 +53,9 @@ To be able to run this project you need to have the have following software inst
     <li>Use ctrl-f to find "PUT YOUR GCP PROJECT ID HERE" and replace it with your project ID</li>
     <li>Change the value of the variable GCS_BUCKET into the name of your terraform bucket.</li>
   </ol>
+<li>Open rotten-tomatoes-datacamp-project/rotten_project_dbt/profiles.yml and change "PUT YOUR GCP PROJECT ID HERE" with your ID</li>
+<li>Open rotten-tomatoes-datacamp-project/rotten_project_dbt/models/example/critic_reviews.sql and change "PUT YOUR GCP PROJECT ID HERE" with your ID </li>
+<li>Open rotten-tomatoes-datacamp-project/rotten_project_dbt/models/example/user_reviews.sql and change "PUT YOUR GCP PROJECT ID HERE" with your ID </li>
   
 <li>Docker</li>
 <ol>
