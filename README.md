@@ -37,9 +37,9 @@ To be able to run this project you need to have the have following software inst
 </ol>
 <li>Creating the infrastructure with Terraform</li>
 <ol>
-<li>In your Google Cloud Account copy your project ID which you can find after you login in to your GCP and it is going to be in the left corner near the Google Cloud icon.</li>
+<li>In your Google Cloud Account copy your project ID which you can find after you login in to your GCP in the left corner near the Google Cloud icon or create a new project if you have none.</li>
 <li>Open the file rotten-tomatoes-datacamp-project/terraform/main.tf
-<li>Change the project ID to yours. So every quiet-maxim occurence should be changed to your ID.</li>
+<li>Change the project ID to yours. So every <PUT YOUR GCP PROJECT ID HERE> occurence should be changed to your ID.</li>
 <li> Change the name of the bucket rotten-tomatoes-bucket since GCP buckets have to have unique names.</li>
 <li>Using the terminal move into rotten-tomatoes-datacamp-project/terraform folder</li>
 <li>Run the command: terraform init </li>
@@ -48,7 +48,7 @@ To be able to run this project you need to have the have following software inst
   <li>Changing project ID inside the python script </li>
   <ol>
     <li>Open the rotten-tomatoes-datacamp-project/dags/data_ingestion.py</li>
-    <li>Use ctrl-f to find "quiet-maxim-379023" and replace it with your project ID</li>
+    <li>Use ctrl-f to find "<PUT YOUR GCP PROJECT ID HERE>" and replace it with your project ID</li>
     <li>Change the value of the variable GCS_BUCKET into the name of your terraform bucket.</li>
   </ol>
   
@@ -82,5 +82,5 @@ To be able to run this project you need to have the have following software inst
 </ul>
 
 <h3>Disclaimer</h3>
-Everything is automated and replicable, but the Looker Studio. Data is processed and is already going to be inside BigQuery tables, so use it however you want for the visualization by using the BigQuery as the source.
+Everything is automated and replicable, but the Looker Studio. Data is processed and is already going to be inside BigQuery tables, so use the data however you want for the visualization by using the BigQuery as the source.
 
