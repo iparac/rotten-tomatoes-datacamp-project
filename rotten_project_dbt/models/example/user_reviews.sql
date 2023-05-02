@@ -3,7 +3,7 @@ with user_reviews as (
         title,
         -- review,
         round(avg(score),2) as average_score
-    from `quiet-maxim-379023.rotten_tomatoes_reviews.user_reviews`
+    from `PUT YOUR GCP PROJECT ID HERE.rotten_tomatoes_reviews.user_reviews`
     group by title
     order by average_score desc
 )

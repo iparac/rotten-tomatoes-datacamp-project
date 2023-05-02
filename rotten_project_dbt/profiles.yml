@@ -8,7 +8,7 @@ rotten_project_dbt:
       method: service-account
       keyfile: /usr/local/airflow/dags/keys/gcp-cred.json
       priority: interactive
-      project: quiet-maxim-379023
+      project: PUT YOUR GCP PROJECT ID HERE
       threads: 8
       type: bigquery
   target: rotten_project_dbt
