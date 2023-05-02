@@ -49,7 +49,7 @@ GCS_OBJECT_PATH = 'rotten_tomatoes_reviews'
 SOURCE_TABLE_NAME = 'critic_reviews'
 SOURCE_TABLE_NAME2 = 'user_reviews'
 BQ_DS = 'rotten_tomatoes_reviews'
-BQ_PROJECT = 'quiet-maxim-379023'
+BQ_PROJECT = '<PUT YOUR GCP PROJECT ID HERE>'
 schema = [
     {
         'name': 'index',
@@ -149,7 +149,7 @@ def add_gcp_connection(**kwargs):
     )
     extra_field = {
         "extra__google_cloud_platform__scope": "https://www.googleapis.com/auth/cloud-platform",
-        "extra__google_cloud_platform__project": "quiet-maxim-379023",
+        "extra__google_cloud_platform__project": "<PUT YOUR GCP PROJECT ID HERE>",
         "extra__google_cloud_platform__key_path": '/usr/local/airflow/dags/keys/gcp-cred.json'
     }
 

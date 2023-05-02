@@ -1,5 +1,5 @@
 provider "google" {
-  project = "quiet-maxim-379023"
+  project = "<PUT YOUR GCP PROJECT ID HERE>"
   region  = "eu-central1"
   zone    = "eu-central1-c"
 }
@@ -57,7 +57,7 @@ resource "google_service_account" "bqowner" {
 }
 
 resource "google_project_iam_member" "firestore_owner_binding" {
-  project = "quiet-maxim-379023"
+  project = "<PUT YOUR GCP PROJECT ID HERE>"
   role    = "roles/bigquery.dataOwner"
   member  = "serviceAccount:${google_service_account.bqowner.email}"
 }
