@@ -29,6 +29,8 @@ To be able to run this project you need to have the have following software inst
 <ol>
 <li>Clone this reposatory</li>
 <li>Create the folder named keys/ under the rotten-tomatoes-datacamp-project/dags/
+<li>Download the dataset from <a href="https://components.one/datasets/film-reviews-208000-critic-reviews-and-10-7-million-user-reviews"> here</a></li>
+<li>Move the downloaded dataset into the rotten-tomatoes-datacamp-project/datasets </li>
 <li>Create a Google Cloud Platform Account (GCP): <a href="https://cloud.google.com/"> here</a></li>
 <ol>
 <li>Create a service account by following the steps <a href="https://cloud.google.com/iam/docs/service-accounts-create"> here</a></li>
